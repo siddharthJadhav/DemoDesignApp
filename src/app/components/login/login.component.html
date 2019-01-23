@@ -1,3 +1,10 @@
-<p>
-  login works!
-</p>
+<div class="container">
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="UserName" name="username" [(ngModel)]="username">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <input type="password" matInput placeholder="Password" name="password" [(ngModel)]="password">
+      </mat-form-field>
+  </form>
+</div>
